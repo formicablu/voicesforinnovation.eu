@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>VOICES FOR INNOVATION</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Fjalla+One|PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+		<script src="http://openlayers.org/api/OpenLayers.js"></script>
+		<script src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41793975-1', 'voicesforinnovation.eu');
+  ga('send', 'pageview');
+
+</script>
+		<script>
+		$(function(){
+			VFE = {};
+			VFE.center = new OpenLayers.LonLat(16.4,48.6);
+			VFE.zoom = 4;
+			VFE.layers = {};
+			VFE.styles = {};
+			VFE.layers.sites = new OpenLayers.Layer.Vector("Sites", {
+		            strategies: [new OpenLayers.Strategy.Fixed()],
+		            protocol: new OpenLayers.Protocol.HTTP({
+		                url: "VOICES.kml",
+		                format: new OpenLayers.Format.KML({
+		                    extractStyles: false, 
+		                    extractAttributes: true,
+		                    maxDepth: 2
+		                })
+		            }),
+		            styleMap:new OpenLayers.StyleMap({
+						'pointRadius': 5,
+						'fillOpacity': 0.5,
+						'fillColor': "#931638",
+						'strokeColor': '#931638',
+						'strokeWidth': 2
+					})
+		        });
+			VFE.selector = new OpenLayers.Control.SelectFeature(VFE.layers.sites, {
+						multiple: false, hover: false,
+	                    toggleKey: "ctrlKey", // ctrl key removes from selection
+	                    multipleKey: "shiftKey" // shift key adds to selection
+					});
+			VFE.map = new OpenLayers.Map("map",{controls:[VFE.selector]});
+
+			VFE.layers.sites.events.on({
+				'featureselected': function(e, feat){
+					div = $('<div />');
+					div.append(" <span>"+e.feature.data.name+"</span> -");
+					div.append(" <span>"+e.feature.data.city+"</span> -");
+					div.append(" <span>"+e.feature.data.country+"</span> -");
+					div.append("<a href='"+e.feature.data.url+"' target='_blank'>Go</a>");
+					$('#i_name').append(div);
+				},
+				'featureunselected': function(e, feat){
+					$('#i_name').text("");
+				}
+			});
+
+			VFE.map.addLayer(new OpenLayers.Layer.Stamen("watercolor"));
+
+			VFE.map.addLayer(VFE.layers.sites);
+			VFE.map.setCenter(VFE.center.transform(new OpenLayers.Projection('EPSG:4326'),  VFE.map.getProjectionObject()), VFE.zoom  );
+
+			VFE.selector.activate();
+		});
+		</script>
+		<link href='/style_new.css' rel="stylesheet">
+
+	</head>
+	<body>
+
+		<header>
+			<img src="imgs/voices_logo_trans.png" alt="Voices for Innovation" title="Voices for Innovation">
+			<div id="stripe"></div>
+			<h1>Voices for Innovation</h1>
+		</header>
+		<nav>
+			<div class="upper_nav">
+				<div class="spacer">
+					<a href="/">Home</a> |
+					<a href="phase_1_new.html">The Project</a> |
+					<a href="phase_7_new.html">About us</a> |
+					<a href="phase_4_new.html">Focus Groups</a> |
+					<a href="phase_9_new.html">Outcomes</a> |
+					<a href="phase_6_new.html">Public Events</a>
+				</div>
+			</div>
+			<div class="lower_nav">
+				<div class="spacer">
+					<a href="press.html">Press</a> |
+					<a href="researchers.html">Researchers</a> 
+				<div id="social">
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=687513447932479";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+					<div class="fb-like" data-href="http://voicesforinnovation.eu/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://voicesforinnovation.eu/" data-hashtags="voicesforinnovation">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+					<!-- Place this tag where you want the +1 button to render. -->
+					<div class="g-plusone" data-size="medium" data-annotation="none" data-width="300"></div>
+					<!-- Place this tag after the last +1 button tag. -->
+					<script type="text/javascript">
+					  (function() {
+					    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+					    po.src = 'https://apis.google.com/js/plusone.js';
+					    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+					  })();
+					</script></div>
+				</div>
+			</div>
+			<div class="overlay"></div>
+			<div class="ov_inner"></div>
+		</nav>
+
+
+
+		<article>
+		<h2>Researchers</h2>
+		<h3>Organise a consultation</h3>
+
+		<p class="c2_area">
+			How can I use VOICES?<br/>
+			The results of the VOICES consultation directly affected the European Commission’s Horizon 2020 calls for research funding. As such, VOICES is a model for incorporating citizens’ voices into RRI. But the project outcomes can also be used by other stakeholders on a local and national, as well as European level, for example:
+			<ul class="c2_area">
+				<li><b>Industry</b> can make use of the results to look into gaps in the market for new innovations;</li>
+				<li><b>Researchers</b> can use VOICES results to align their research with the principles of RRI;</li>
+				<li><b>Educators</b> can use project outcomes to give a national and European perspective to classroom discussions on current science topics;</li>
+				<li><b>Universities</b> can use VOICES as a model for citizen participation;</li>
+				<li><b>Policymakers and funding agencies</b> both within and beyond the European institutions can shape their research strategy to fit RRI.</li>
+			</ul>
+		</p>
+		<p class="c2_area">
+			For practical information on how to implement a consultation like VOICES, download the following documents:
+			<ul class="c2_area">
+				<li><a target="_blank" href="files/02_VOICES_focusgroup_methodology.pdf">VOICES methodology - [PDF, 9.5Mb]</a></li>
+				<li><a target="_blank" href="files/03_VOICES_practicalities.pdf">VOICES practicalities - [PDF, 7.2Mb]</a></li>
+				<li><a target="_blank" href="files/FINAL%20VOICES%20Moderators%20Manual.pdf">Moderators manual - [PDF, 2.4Mb]</a></li>
+				<li><a target="_blank" href="files/focus_groups_script.pdf">VOICES script [PDF, 125Kb]</a></li>
+			</ul>
+		</p>
+<p class="c2_area">Full, anonymised transcripts of focus groups in all 27 countries are available publicly upon request. Please contact Marzia Mazzonetto (<a href="mailto:mmazzonetto@ecsite.eu">mmazzonetto@ecsite.eu</a>) with the details of your requirements.</p>
+
+		</article>
+
+		<footer>
+			<div class="row large">
+				<div class="team_logo"><img src="imgs/voices_logo_trans.png"></div>
+				<div class="team_logo"><a href="ec.europa.eu/research/science-society" target="_blank"><img src="imgs/ec_t.png"></a></div>
+				<div class="team_logo"><a href="http://www.ecsite.eu" target="_blank"><img src="imgs/ecsite_t.png"></a></div>
+				<div class="team_logo"><a href="http://www.formicablu.it" target="_blank"><img src="imgs/fb_t.png"></a></div>
+				<div class="closer"></div>
+			</div>
+			<div class="small row" style="margin-top: -52px;"><a href="https://github.com/sirmmo/voicesforinnovation.eu">voicesforinnovation</a> platform by &copy; 2013 <a href="http://formicablu.it/">formicablu</a></div>
+		</footer>
+
+	</body>
+</html>

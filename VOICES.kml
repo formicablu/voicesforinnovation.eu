@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>VOICES</name>
+  <description><![CDATA[Third Parties]]></description>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style32">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style27">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style30">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style29">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style31">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style28">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style33">
+    <IconStyle>
+      <Icon>
+        <href>http://maps.gstatic.com/mapfiles/ms2/micons/blue-dot.png</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Placemark>
+    <name>Science Center Netzwerk</name>
+    <url>http://www.science-center-net.at/</url>
+    <city>Wien</city>
+    <country>Austria</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>16.392958,48.200706,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Museum voor Natuurwetenschappen</name>
+    <url>http://www.natuurwetenschappen.be/‎</url>
+    <city>Brussels</city>
+    <country>Belgium</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>4.376370,50.836407,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Techmania Science Center</name>
+    <url>http://www.techmania.cz/</url>
+    <city>Plzeň</city>
+    <country>Czech Republic</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style12</styleUrl>
+    <Point>
+      <coordinates>13.362237,49.740620,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Experimentarium</name>
+    <url>http://www.experimentarium.dk/</url>
+    <city>København</city>
+    <country>Denmark</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>12.580082,55.726711,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Teaduskeskus AHHAA SA</name>
+    <url>http://www.ahhaa.ee/</url>
+    <city>Tartu</city>
+    <country>Estonia</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>26.734087,58.376705,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Heureka Overseas Productions Ltd Oy</name>
+    <url>http://www.heureka.fi/</url>
+    <city>Vantaa</city>
+    <country>Finland</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>25.043812,60.286411,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Cité des Sciences et de l&#39;Industrie</name>
+    <url>http://www.cite-sciences.fr/fr/cite-des-sciences/</url>
+    <city>Paris</city>
+    <country>France</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>2.387059,48.895985,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CCSTI Grenoble - La Casemate</name>
+    <url>http://www.ccsti-grenoble.org/</url>
+    <city>Grenoble</city>
+    <country>France</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>5.732130,45.197617,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>German Museum</name>
+    <url>http://www.deutsches-museum.de</url>
+    <city>Munich</city>
+    <country>Germany</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>11.583398,48.129940,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Universum Science Center</name>
+    <url>http://www.universum-bremen.de/en/home.html</url>
+    <city>Bremen</city>
+    <country>Germany</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>8.845228,53.106571,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Goulandris Natural History Museum</name>
+    <url>http://www.gnhm.gr/MuseumSelect.aspx?lang=en-US</url>
+    <city>Kifissia</city>
+    <country>Greece</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>23.814941,38.074348,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Millenáris (Palace of Wonders)</name>
+    <url>http://www.millenaris.hu/</url>
+    <city>Budapest</city>
+    <country>Hungary</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>19.015335,47.406315,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Science Gallery</name>
+    <url>http://sciencegallery.com/</url>
+    <city>Dublin</city>
+    <country>Ireland</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-6.250040,53.344120,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Museo della Scienza e della Tecnologia Leonardo da Vinci</name>
+    <url>http://www.museoscienza.org/</url>
+    <city>Milan</city>
+    <country>Italy</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>9.171533,45.460960,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>City of Science</name>
+    <url>http://www.cittadellascienza.it/</url>
+    <city>Naples</city>
+    <country>Italy</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>14.174195,40.804287,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Zinātnes centrs Z(in)oo</name>
+    <url>http://www.zinoo.lv/</url>
+    <city>Cēsis</city>
+    <country>Latvia</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style32</styleUrl>
+    <Point>
+      <coordinates>25.288631,57.314304,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Smiltynės gatvė</name>
+    <url>#</url>
+    <city>Klaipėda</city>
+    <country>Lithuania</country>
+    <description><![CDATA[Smiltynės gatvė<br>Kuršių Nerija National Park, Klaipėda, Lithuania<br><a href="https://maps.google.com/maps/place?ftid=0x46e4dbc1fca4ceb5:0x439621510c59c449&amp;q=Smiltyn%C4%97s+Street+3,+Klaip%C4%97da,+LT-93100,+Lithuania&amp;hl=en&amp;t=m&amp;cd=1&amp;cad=src:ppiwlink&amp;ei=SX42UduqOYnciwbAnID4BA&amp;sig2=01Z82riHgAHJLB05ehBqUg&amp;dtab=5" target="_blank"><img src="https://cbks0.google.com/cbk?output=thumbnail&amp;w=90&amp;h=68&amp;ll=55.692656,21.118557&amp;thumb=0"></a>]]></description>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>21.118557,55.692657,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>NEMO science center</name>
+    <url>http://www.e-nemo.nl/</url>
+    <city>Amsterdam</city>
+    <country>Nederlands</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>4.912128,52.373837,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Copernicus Science Centre</name>
+    <url>http://www.kopernik.org.pl/en/</url>
+    <city>Warsaw</city>
+    <country>Poland</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>21.028492,52.241924,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centrum Nowoczesności Młyn Wiedzy</name>
+    <url>http://mlynwiedzy.org.pl/</url>
+    <city>Toruń</city>
+    <country>Poland</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>18.602917,53.011890,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Pavilhão do Conhecimento</name>
+    <url>http://www.pavconhecimento.pt/home/</url>
+    <city>Lisboa</city>
+    <country>Portugal</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style27</styleUrl>
+    <Point>
+      <coordinates>-9.095596,38.762310,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Ustanova hiša eksperimentov</name>
+    <url>http://www.h-e.si/</url>
+    <city>Ljubljana</city>
+    <country>Slovenia</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>14.510890,46.052574,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>CosmoCaixa</name>
+    <url>http://obrasocial.lacaixa.es/nuestroscentros/cosmocaixabarcelona/cosmocaixabarcelona_es.html</url>
+    <city>Barcelona</city>
+    <country>Spain</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>2.130886,41.413170,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Parque de las Ciencias</name>
+    <url>http://www.parqueciencias.com/parqueciencias/</url>
+    <city>Granada</city>
+    <country>Spain</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style30</styleUrl>
+    <Point>
+      <coordinates>-3.606638,37.162781,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Tekniska Museet</name>
+    <url>http://www.tekniskamuseet.se/</url>
+    <city>Stockholm</city>
+    <country>Sweden</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style29</styleUrl>
+    <Point>
+      <coordinates>18.119278,59.332481,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Natural History Museum</name>
+    <url>http://www.nhm.ac.uk/</url>
+    <city>London</city>
+    <country>United Kingdom</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-0.176488,51.496368,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Centre for Life</name>
+    <url>http://www.life.org.uk/</url>
+    <city>Newcastle upon Tyne</city>
+    <country>United Kingdom</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style31</styleUrl>
+    <Point>
+      <coordinates>-1.621193,54.967560,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Formicablu</name>
+    <url>http://www.formicablu.it/</url>
+    <city>Bologna</city>
+    <country>Italy</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>11.351324,44.515209,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name> </name>
+    <url>#</url>
+    <city>Sofia</city>
+    <country>Bulgaria</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style28</styleUrl>
+    <Point>
+      <coordinates>23.322481,42.692822,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name> </name>
+    <url>#</url>
+    <city>Nicosia</city>
+    <country>Cyprus</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>33.339989,35.122223,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name> </name>
+    <url>#</url>
+    <city>Luxembourg</city>
+    <country>Luxembourg</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>6.135454,49.597725,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name> </name>
+    <url>#</url>
+    <city>Birkirkara</city>
+    <country>Malta</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>14.462500,35.896667,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>IMAS</name>
+    <url>#</url>
+    <city>Bucharest</city>
+    <country>Romania</country>
+    <description><![CDATA[]]></description>
+    <styleUrl>#style33</styleUrl>
+    <Point>
+      <coordinates>26.094421,44.428898,0.000000</coordinates>
+    </Point>
+  </Placemark>
+</Document>
+</kml>
